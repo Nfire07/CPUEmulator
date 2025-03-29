@@ -1,0 +1,17 @@
+;prima prova test set dei registri dei flag
+
+
+LDI R1 NULL 0000
+LDI R2 NULL 0001
+
+DEC R1 NULL
+DEC R2 NULL
+
+;SE ALMENO UN FLAG REGISTER ON INSERISCE FFFF IN R3
+LDCI IP NULL 0002
+
+HALT
+
+
+
+
